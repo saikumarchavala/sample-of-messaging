@@ -17,8 +17,8 @@ import com.Infosys.in.Sample.of.Messaging.Service.UserService;
 @RestController
 public class DepartmentController {
 	
-		
-	
+	@Autowired	
+	private RestTemplate restTemplate;
 	@Autowired
 	private DepartmentService departmentService;
 	@Autowired
